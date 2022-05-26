@@ -31,7 +31,10 @@ namespace CVgenerator
             {
                 if (licence)
                 {
-                    driverLicence.Add(charLicence[i]);
+                    if (driverLicence.Contains(charLicence[i]))
+                        continue;
+                    else
+                        driverLicence.Add(charLicence[i]);
                 }
                 i++;
             }

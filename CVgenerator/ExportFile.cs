@@ -62,7 +62,7 @@ namespace CVgenerator
             page.Canvas.DrawString("CURRICULUM VITAE", fontBold16, brush, pageWidth / 2, line * rowHeight, formatCenter);
             line += 4;
 
-            if (Form1.dateofbirth != "" && Form1.placeofbirth != "" && Form1.nationality != "" && Form1.marital != "")
+            if (Form1.dateofbirth != "" ^ Form1.placeofbirth != "" ^ Form1.nationality != "" ^ Form1.marital != "")
                 page.Canvas.DrawString("Personal Details", fontBold, brush, 0, line * rowHeight, formatLeft);
 
             if (Form1.file != "")
@@ -188,7 +188,7 @@ namespace CVgenerator
                         licence += ", ";
                 }
                 page.Canvas.DrawString("Driver licence", fontBold, brush, 0, line * rowHeight, formatLeft);
-                page.Canvas.DrawString(licence, fontRegular, brush, pageWidth / 2, line * rowHeight, formatLeft);
+                page.Canvas.DrawString(licence, fontRegular, brush, pageWidth / 2, line * rowHeight, formatLeft);                
             }
             
             if (Form3.interests != "")
@@ -196,12 +196,12 @@ namespace CVgenerator
                 line += 2;
                 CheckFullPage(5);
                 page.Canvas.DrawString("Interests", fontBold, brush, 0, line * rowHeight, formatLeft);
-                string[] interests = Form3.interests.Split(',', ' ','.');
+                string[] interests = Form3.interests.Split(',');
                 foreach (string interest in interests)
                 {
                     if (interest != "")
                     {
-                        page.Canvas.DrawString(interest, fontRegular, brush, pageWidth / 2, line * rowHeight, formatLeft);
+                        page.Canvas.DrawString(interest.Trim(), fontRegular, brush, pageWidth / 2, line * rowHeight, formatLeft);
                         line++;
                     }
                 }
