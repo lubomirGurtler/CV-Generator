@@ -133,7 +133,7 @@ namespace CVgenerator
                     page.Canvas.DrawString(description[2], fontRegular, brush, pageWidth / 2, line * rowHeight, formatLeft);
                     line++;
                 }
-            }
+            }  
 
             CheckFullPage(6);
             if (Form2.employments.Count != 0)
