@@ -62,7 +62,7 @@ namespace CVgenerator
             page.Canvas.DrawString("CURRICULUM VITAE", fontBold16, brush, pageWidth / 2, line * rowHeight, formatCenter);
             line += 4;
 
-            if (Form1.dateofbirth != "" ^ Form1.placeofbirth != "" ^ Form1.nationality != "" ^ Form1.marital != "")
+            if (Form1.dateofbirth != "" || Form1.placeofbirth != "" || Form1.nationality != "" || Form1.marital != "")
                 page.Canvas.DrawString("Personal Details", fontBold, brush, 0, line * rowHeight, formatLeft);
 
             if (Form1.file != "")
@@ -133,7 +133,7 @@ namespace CVgenerator
                     page.Canvas.DrawString(description[2], fontRegular, brush, pageWidth / 2, line * rowHeight, formatLeft);
                     line++;
                 }
-            }  
+            } 
 
             CheckFullPage(6);
             if (Form2.employments.Count != 0)

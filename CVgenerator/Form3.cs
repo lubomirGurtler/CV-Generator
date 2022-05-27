@@ -17,7 +17,7 @@ namespace CVgenerator
 
         SkillManager skillManager = new SkillManager();
         
-        public static string interests;  
+        public static string interests;
         
         public static List<char> driverLicence = new List<char>();
 

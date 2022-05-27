@@ -395,8 +395,8 @@
             this.infoLabel.Size = new System.Drawing.Size(32, 16);
             this.infoLabel.TabIndex = 29;
             this.infoLabel.Text = "Info";
-            this.infoTip.SetToolTip(this.infoLabel, "The fields in this section are not all necessary. These fields which you did not " +
-        "fill, they will not be included in your final CV document.");
+            this.infoTip.SetToolTip(this.infoLabel, "Date of birth, place of birth, nationality and marital status are optional fields" +
+        ".");
             // 
             // infoTip
             // 
