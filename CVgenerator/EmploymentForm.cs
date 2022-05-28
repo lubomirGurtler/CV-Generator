@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace CVgenerator
 {
-    public partial class Form2 : Form
+    public partial class EmploymentForm : Form
     {
         EmploymentManager employmentManager = new EmploymentManager();
 
         public static List<string> employments = new List<string>();        
 
-        Form3 f3;
+        EducationForm f3;
 
-        public Form2()
+        public EmploymentForm()
         {
             InitializeComponent();            
-            f3 = new Form3();
+            f3 = new EducationForm();
             employmentdataGridView.AutoGenerateColumns = false;
             employmentdataGridView.DataSource = employmentManager.employmentsList;            
             Auxiliary.Years(start_year_comboBox);

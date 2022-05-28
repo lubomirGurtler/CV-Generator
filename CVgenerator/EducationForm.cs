@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace CVgenerator
 {
-    public partial class Form3 : Form
+    public partial class EducationForm : Form
     {
         EducationManager educationManager = new EducationManager();
 
@@ -44,7 +44,7 @@ namespace CVgenerator
        
         public static List<string> skills = new List<string>();
 
-        public Form3()
+        public EducationForm()
         {
             InitializeComponent();
             educationDataGridView.AutoGenerateColumns = false;

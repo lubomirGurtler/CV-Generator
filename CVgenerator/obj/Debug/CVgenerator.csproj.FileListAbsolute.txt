@@ -25,12 +25,12 @@ C:\CVgenerator\CVgenerator\bin\Debug\Microsoft.mshtml.dll
 C:\CVgenerator\CVgenerator\bin\Debug\Spire.License.xml
 C:\CVgenerator\CVgenerator\bin\Debug\Spire.Pdf.xml
 C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.csprojAssemblyReference.cache
-C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.Form1.resources
-C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.Form2.resources
-C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.Form3.resources
 C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.Properties.Resources.resources
 C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.csproj.GenerateResource.cache
 C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.csproj.CoreCompileInputs.cache
 C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.csproj.CopyComplete
 C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.exe
 C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.pdb
+C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.PersonalForm.resources
+C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.EmploymentForm.resources
+C:\CVgenerator\CVgenerator\obj\Debug\CVgenerator.EducationForm.resources

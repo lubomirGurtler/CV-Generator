@@ -1,6 +1,6 @@
 ﻿namespace CVgenerator
 {
-    partial class Form3
+    partial class EducationForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EducationForm));
             this.MakeitButton = new System.Windows.Forms.Button();
             this.BackButton2 = new System.Windows.Forms.Button();
             this.degreeTextbox = new System.Windows.Forms.TextBox();

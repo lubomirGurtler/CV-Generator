@@ -1,6 +1,6 @@
 ﻿namespace CVgenerator
 {
-    partial class Form2
+    partial class EmploymentForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmploymentForm));
             this.NextButton2 = new System.Windows.Forms.Button();
             this.BackButton1 = new System.Windows.Forms.Button();
             this.job_title_label = new System.Windows.Forms.Label();

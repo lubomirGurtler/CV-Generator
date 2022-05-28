@@ -12,9 +12,9 @@ using System.Globalization;
 
 namespace CVgenerator
 {
-    public partial class Form1 : Form
+    public partial class PersonalForm : Form
     {
-        Form2 f2;        
+        EmploymentForm f2;        
 
         public static string name;
         
@@ -42,10 +42,10 @@ namespace CVgenerator
 
         public static string file = "";
         
-        public Form1()
+        public PersonalForm()
         {
             InitializeComponent();
-            f2 = new Form2();
+            f2 = new EmploymentForm();
             Auxiliary.Nationalities(nationComboBox);
             nationComboBox.SelectedIndex = 0;
             maritalComboBox.SelectedIndex = 0;
